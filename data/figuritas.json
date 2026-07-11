@@ -3277,17 +3277,112 @@
     "URU": [],
     "UZB": [],
     "CONTENDERS": [],
-    "DEN": [],
-    "ITA": [],
-    "JAM": [],
-    "POL": [],
-    "SWE": [],
-    "TUR": [],
-    "TOP_KEEPERS": [],
-    "DEFENSIVE_ROCKS": [],
-    "MIDFIELD_MAESTROS": [],
-    "GOAL_MACHINES": [],
-    "MASTER_ROOKIES": []
+    "TOP_KEEPERS": [
+      {
+        "number": 558,
+        "quantity":2
+      },
+      {
+        "number": 556,
+        "quantity":1
+      },
+      {
+        "number": 553,
+        "quantity":1
+      },
+      {
+        "number": 555,
+        "quantity":2
+      },
+      {
+        "number": 561,
+        "quantity":2
+      }
+    ],
+    "DEFENSIVE_ROCKS": [
+      {
+        "number": 563,
+        "quantity":2
+      },
+      {
+        "number": 562,
+        "quantity":1
+      },
+      {
+        "number": 561,
+        "quantity":1
+      },
+      {
+        "number": 560,
+        "quantity":1
+      }
+    ],
+    "MIDFIELD_MAESTROS": [
+      {
+        "number": 584,
+        "quantity":1
+      },
+      {
+        "number": 578,
+        "quantity":1
+      },
+      {
+        "number": 576,
+        "quantity":1
+      },
+      {
+        "number": 573,
+        "quantity":1
+      },
+      {
+        "number": 571,
+        "quantity":1
+      }
+    ],
+    "GOAL_MACHINES": [
+      {
+        "number": 596,
+        "quantity":1
+      },
+      {
+        "number": 594,
+        "quantity":1
+      },
+      {
+        "number": 589,
+        "quantity":1
+      },
+      {
+        "number": 588,
+        "quantity":1
+      }
+    ],
+    "MASTER_ROOKIES": [
+      {
+        "number": 623,
+        "quantity":1
+      },
+      {
+        "number": 622,
+        "quantity":1
+      },
+      {
+        "number": 620,
+        "quantity":1
+      },
+      {
+        "number": 615,
+        "quantity":2
+      },
+      {
+        "number": 614,
+        "quantity":1
+      },
+      {
+        "number": 610,
+        "quantity":2
+      }
+    ]
   },
   "repetidas": {
     "GOLDEN_BALLERS": [],
@@ -6028,9 +6123,7 @@
         "number": 519,
         "name": "SUR - BOL/IRQ",
         "position": null
-      }
-    ],
-    "DEN": [
+      },
       {
         "number": 520,
         "name": "HJULMAND (DEN)",
@@ -6055,9 +6148,7 @@
         "number": 524,
         "name": "HØJLUND (DEN)",
         "position": "forward"
-      }
-    ],
-    "ITA": [
+      },
       {
         "number": 525,
         "name": "DONNARUMMA (ITA)",
@@ -6082,9 +6173,7 @@
         "number": 529,
         "name": "KEAN (ITA)",
         "position": "forward"
-      }
-    ],
-    "JAM": [
+      },
       {
         "number": 530,
         "name": "BLAKE (JAM)",
@@ -6109,9 +6198,7 @@
         "number": 534,
         "name": "NICHOLSON (JAM)",
         "position": "forward"
-      }
-    ],
-    "POL": [
+      },
       {
         "number": 535,
         "name": "CASH (POL)",
@@ -6136,9 +6223,7 @@
         "number": 539,
         "name": "LEWANDOWSKI (POL)",
         "position": "forward"
-      }
-    ],
-    "SWE": [
+      },
       {
         "number": 540,
         "name": "HIEN (SWE)",
@@ -6163,9 +6248,7 @@
         "number": 544,
         "name": "ISAK (SWE)",
         "position": "forward"
-      }
-    ],
-    "TUR": [
+      },
       {
         "number": 545,
         "name": "SÖYÜNCÜ (TUR)",
@@ -6555,6 +6638,21 @@
         "number": 620,
         "name": "SCHJELDERUP (NOR)",
         "position": "midfielder"
+      },
+      {
+        "number": 621,
+        "name": "GOMEZ (PAR)",
+        "position": "midfielder"
+      },
+      {
+        "number": 622,
+        "name": "JOÃO NEVES (POR)",
+        "position": "midfielder"
+      },
+      {
+        "number": 623,
+        "name": "CUBARSI (ESP)",
+        "position": "defender"
       }
     ]
   }
