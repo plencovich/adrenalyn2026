@@ -1,4 +1,4 @@
-# Canje de figuritas Mundial 2026
+# Intercambio de tarjetas Adrenalyn XL FIFA 2026
 
 Sitio estático responsive para seleccionar figuritas repetidas y faltantes, armar una propuesta de
 canje y enviarla por WhatsApp. El mismo archivo JSON alimenta la web y la generación de PDFs.
