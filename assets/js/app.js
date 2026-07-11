@@ -4,10 +4,10 @@ const WHATSAPP_PHONE = "5492477669952";
 const EXCHANGE_PACK_SIZE = 7;
 
 const EXCHANGE_RULE =
-  `El canje se realiza figurita por figurita; si necesitas más figuritas de las que vos me das; el canje se realiza 1 sobre cerrado cada ${EXCHANGE_PACK_SIZE} figuritas.`;
+  `El canje se realiza tarjeta por tarjeta; si necesitás más tarjetas de las que vos me das; el canje se realiza 1 sobre cerrado cada ${EXCHANGE_PACK_SIZE} tarjetas.`;
 
 const CLOSED_PACK_ONLY_RULE =
-  `El cambio es de ${EXCHANGE_PACK_SIZE} figuritas solicitadas por 1 sobre cerrado.`;
+  `El cambio es de ${EXCHANGE_PACK_SIZE} tarjetas solicitadas por 1 sobre cerrado.`;
 
 const state = {
   needed: new Map(),
@@ -94,9 +94,7 @@ function deriveInventory(data) {
       if (quantity <= 0) {
         faltantes[group].push({ ...card });
       } else if (quantity > 1) {
-        for (let index = 1; index < quantity; index += 1) {
-          repetidas[group].push({ ...card });
-        }
+        repetidas[group].push({ ...card });
       }
     });
   });
@@ -136,13 +134,18 @@ function createStickerOption(section, country, card) {
   input.value = String(card.number);
   input.dataset.country = country;
   input.dataset.name = card.name;
-  input.setAttribute("aria-label", `${country} figurita ${card.number} ${card.name}`);
+  input.setAttribute("aria-label", `${country} tarjeta ${card.number} ${card.name}`);
   input.addEventListener("change", () => {
     const selection = state[section];
     const key = itemKey(country, card);
 
     if (input.checked) {
-      selection.set(key, { country, number: card.number, occurrence: card.occurrence });
+      selection.set(key, {
+        country,
+        number: card.number,
+        name: card.name,
+        occurrence: card.occurrence,
+      });
     } else {
       selection.delete(key);
     }
@@ -151,12 +154,15 @@ function createStickerOption(section, country, card) {
   });
 
   const visibleNumber = document.createElement("span");
+  visibleNumber.className = "sticker-number";
   visibleNumber.textContent = card.number;
-  if (card.name) {
-    visibleNumber.title = card.name;
-  }
 
-  label.append(input, visibleNumber);
+  const visibleName = document.createElement("span");
+  visibleName.className = "sticker-name";
+  visibleName.textContent = card.name || "Sin nombre";
+
+  label.title = card.name ? `${card.number} - ${card.name}` : String(card.number);
+  label.append(input, visibleNumber, visibleName);
   return label;
 }
 
@@ -210,10 +216,8 @@ function filterSection(section) {
 
   elements[section].list.querySelectorAll(".country-group").forEach((group) => {
     const countryMatches = group.dataset.country.includes(query);
-    const numberMatches = group.dataset.numbers
-      .split(" ")
-      .some((number) => number.includes(query));
-    const isVisible = !query || countryMatches || numberMatches;
+    const cardMatches = group.dataset.numbers.includes(query);
+    const isVisible = !query || countryMatches || cardMatches;
 
     group.hidden = !isVisible;
     visibleGroups += Number(isVisible);
@@ -235,11 +239,11 @@ function selectionByCountry(selection) {
 
   [...selection.values()]
     .sort((a, b) => a.country.localeCompare(b.country) || a.number - b.number)
-    .forEach(({ country, number }) => {
+    .forEach(({ country, number, name }) => {
       if (!grouped.has(country)) {
         grouped.set(country, []);
       }
-      grouped.get(country).push(number);
+      grouped.get(country).push(name ? `${number} - ${name}` : String(number));
     });
 
   return grouped;
@@ -267,7 +271,7 @@ function updateSummary() {
   if (ruleApplies) {
     const suggestedPacks = Math.ceil(difference / EXCHANGE_PACK_SIZE);
     elements.suggestedPacks.textContent =
-      `Diferencia: ${difference} figurita${difference === 1 ? "" : "s"}. ` +
+      `Diferencia: ${difference} tarjeta${difference === 1 ? "" : "s"}. ` +
       `Sobres sugeridos: ${suggestedPacks}.`;
   }
 
@@ -303,13 +307,13 @@ function buildWhatsAppMessage() {
   const offeredTotal = state.offered.size;
   const difference = neededTotal - offeredTotal;
   const parts = [
-    "Hola, quiero hacer un canje de figuritas.",
+    "Hola, quiero hacer un intercambio de tarjetas Adrenalyn XL FIFA 2026.",
     "",
-    "Figuritas que necesito:",
+    "Tarjetas que necesito:",
     formatSelection(state.needed),
     `Total que necesito: ${neededTotal}`,
     "",
-    "Figuritas que te doy:",
+    "Tarjetas que te doy:",
     offeredTotal > 0 ? formatSelection(state.offered) : "Ninguna seleccionada",
     `Total que te doy: ${offeredTotal}`,
   ];
@@ -318,7 +322,7 @@ function buildWhatsAppMessage() {
     parts.push(
       "",
       EXCHANGE_RULE,
-      `Diferencia: ${difference} figurita${difference === 1 ? "" : "s"}.`,
+      `Diferencia: ${difference} tarjeta${difference === 1 ? "" : "s"}.`,
       `Sobres sugeridos: ${Math.ceil(difference / EXCHANGE_PACK_SIZE)}.`,
     );
   }
@@ -328,7 +332,7 @@ function buildWhatsAppMessage() {
 
 function startExchange() {
   if (state.needed.size === 0) {
-    showFormMessage("Seleccioná al menos una figurita que necesitás.", "error");
+    showFormMessage("Seleccioná al menos una tarjeta que necesitás.", "error");
     elements.formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
     return;
   }
@@ -336,7 +340,7 @@ function startExchange() {
   if (state.offered.size === 0) {
     showFormMessage(
       state.offeredHasStickers
-        ? "No seleccionaste figuritas para dar a cambio."
+        ? "No seleccionaste tarjetas para dar a cambio."
         : CLOSED_PACK_ONLY_RULE,
       "warning",
     );
@@ -376,7 +380,7 @@ async function loadData() {
   } catch (error) {
     elements.loadStatus.className = "status status-error";
     elements.loadStatus.textContent =
-      "No se pudieron cargar las figuritas. Abrí el sitio desde un servidor local o GitHub Pages.";
+      "No se pudieron cargar las tarjetas. Abrí el sitio desde un servidor local o GitHub Pages.";
     console.error(error);
   }
 }

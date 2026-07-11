@@ -1,7 +1,7 @@
 # Formato de figuritas Adrenalyn XL 2026
 
 `data/figuritas.json` contiene la colección `FIFA World Cup 2026 Adrenalyn XL` de Panini con
-numeración global del 1 al 620.
+numeración global del 1 al 630.
 
 ## Estructura
 

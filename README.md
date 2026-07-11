@@ -124,4 +124,3 @@ No se requiere backend, base de datos ni proceso de compilación.
 ## Documentación técnica
 
 - [Formato FIFA World Cup 2026 Adrenalyn XL](docs/formato-figuritas-adrenalyn-2026.md)
-- [Desarrollo HTML para canje de figuritas](docs/prompts/desarrollo-html-canje-figuritas.md)

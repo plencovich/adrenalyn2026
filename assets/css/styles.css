@@ -1,19 +1,24 @@
 :root {
   color-scheme: light;
-  --background: #f5f7f3;
+  --background: #eef7fb;
   --surface: #ffffff;
-  --surface-soft: #edf5ee;
-  --text: #17221a;
-  --muted: #5f6e63;
-  --primary: #166534;
-  --primary-dark: #0f4c27;
-  --accent: #f4c542;
-  --border: #d6dfd7;
-  --danger: #9f1239;
-  --danger-soft: #fff1f2;
-  --warning: #7c4a03;
-  --warning-soft: #fff8df;
-  --shadow: 0 12px 30px rgba(28, 52, 34, 0.09);
+  --surface-soft: #e7f4f7;
+  --text: #071426;
+  --muted: #536273;
+  --primary: #1746a2;
+  --primary-dark: #071426;
+  --accent: #ffd22e;
+  --cyan: #00a6c8;
+  --magenta: #c00068;
+  --lime: #a8d42e;
+  --red: #e30621;
+  --orange: #ff6b00;
+  --border: #c9d9e6;
+  --danger: #b00035;
+  --danger-soft: #fff0f5;
+  --warning: #7a4100;
+  --warning-soft: #fff5d6;
+  --shadow: 0 12px 30px rgba(7, 20, 38, 0.11);
   --radius: 18px;
 }
 
@@ -53,8 +58,9 @@ button {
   padding: 42px 0 34px;
   color: #ffffff;
   background:
-    radial-gradient(circle at 85% 15%, rgba(244, 197, 66, 0.28), transparent 30%),
-    linear-gradient(135deg, #0d3d21, #16713a);
+    linear-gradient(90deg, var(--cyan) 0 14%, var(--lime) 14% 28%, var(--red) 28% 42%, var(--orange) 42% 56%, var(--magenta) 56% 70%, transparent 70%),
+    radial-gradient(circle at 85% 20%, rgba(255, 210, 46, 0.3), transparent 26%),
+    linear-gradient(135deg, #071426 0%, #123b8f 48%, #00a6c8 100%);
 }
 
 .eyebrow,
@@ -125,7 +131,7 @@ h2 {
 
 .section-heading .step,
 .summary .step {
-  color: var(--primary);
+  color: var(--magenta);
 }
 
 .counter {
@@ -133,7 +139,7 @@ h2 {
   padding: 6px 10px;
   border-radius: 999px;
   color: var(--primary-dark);
-  background: var(--surface-soft);
+  background: #fff3c0;
   font-size: 0.8rem;
   font-weight: 800;
 }
@@ -164,8 +170,8 @@ h2 {
 }
 
 .search-field input:focus {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px rgba(22, 101, 52, 0.14);
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 3px rgba(0, 166, 200, 0.18);
 }
 
 .button {
@@ -177,7 +183,7 @@ h2 {
 }
 
 .button:focus-visible {
-  outline: 3px solid rgba(22, 101, 52, 0.3);
+  outline: 3px solid rgba(0, 166, 200, 0.3);
   outline-offset: 2px;
 }
 
@@ -188,11 +194,11 @@ h2 {
 
 .button-ghost {
   color: var(--primary);
-  background: var(--surface-soft);
+  background: #e6f6fb;
 }
 
 .button-ghost:hover {
-  background: #dcecdf;
+  background: #d2edf5;
 }
 
 .country-list {
@@ -210,24 +216,26 @@ h2 {
   margin: 0;
   padding: 10px 14px;
   color: #ffffff;
-  background: var(--primary);
+  background: linear-gradient(90deg, var(--primary-dark), var(--primary));
   font-size: 0.95rem;
   letter-spacing: 0.12em;
 }
 
 .sticker-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 8px;
   padding: 12px;
 }
 
 .sticker-option {
   position: relative;
-  display: flex;
-  min-height: 48px;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  min-height: 72px;
+  align-content: center;
+  justify-items: center;
+  gap: 3px;
+  padding: 8px 10px;
   border: 2px solid var(--border);
   border-radius: 11px;
   color: var(--text);
@@ -242,18 +250,18 @@ h2 {
 }
 
 .sticker-option:hover {
-  border-color: #85a78e;
+  border-color: var(--cyan);
 }
 
 .sticker-option:has(input:checked) {
-  border-color: var(--primary);
+  border-color: var(--magenta);
   color: #ffffff;
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary), var(--magenta));
   transform: translateY(-1px);
 }
 
 .sticker-option:has(input:focus-visible) {
-  outline: 3px solid rgba(22, 101, 52, 0.25);
+  outline: 3px solid rgba(0, 166, 200, 0.28);
   outline-offset: 2px;
 }
 
@@ -262,6 +270,26 @@ h2 {
   width: 1px;
   height: 1px;
   opacity: 0;
+}
+
+.sticker-number {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.sticker-name {
+  width: 100%;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sticker-option:has(input:checked) .sticker-name {
+  color: rgba(255, 255, 255, 0.86);
 }
 
 .empty-state {
@@ -305,7 +333,7 @@ h2 {
 
 .summary-totals dd {
   margin: 2px 0 0;
-  color: var(--primary-dark);
+  color: var(--magenta);
   font-size: 1.35rem;
   font-weight: 900;
 }
@@ -313,13 +341,13 @@ h2 {
 .button-primary {
   min-height: 56px;
   padding: 14px 22px;
-  color: #ffffff;
-  background: var(--primary);
-  box-shadow: 0 8px 18px rgba(22, 101, 52, 0.22);
+  color: var(--primary-dark);
+  background: var(--accent);
+  box-shadow: 0 8px 18px rgba(255, 107, 0, 0.24);
 }
 
 .button-primary:hover {
-  background: var(--primary-dark);
+  background: #ffbf00;
 }
 
 .status {
@@ -373,6 +401,10 @@ h2 {
 }
 
 @media (max-width: 639px) {
+  .sticker-grid {
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  }
+
   .main-content {
     padding-bottom: 84px;
   }
