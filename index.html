@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Seleccioná figuritas del Mundial 2026 PANINI y enviá una propuesta de canje por WhatsApp."
+    />
+    <title>Canje de figuritas Mundial 2026</title>
+    <link rel="stylesheet" href="assets/css/styles.css?ver260608" />
+    <script src="assets/js/app.js?ver260608" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">Álbum Mundial 2026 - PANINI</p>
+        <h1>Canje de figuritas Mundial 2026 - PANINI</h1>
+        <p class="intro">
+          Seleccioná las figuritas que necesitás y las que me das a cambio.
+          Después tocá Canjear para enviarme el listado por WhatsApp.
+        </p>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <div id="load-status" class="status status-info" role="status">
+        Cargando figuritas...
+      </div>
+
+      <div id="exchange-content" class="exchange-grid" hidden>
+        <section class="sticker-section" aria-labelledby="needed-title">
+          <div class="section-heading">
+            <div>
+              <p class="step">Paso 1</p>
+              <h2 id="needed-title">Figuritas que necesitás</h2>
+            </div>
+            <span class="counter" id="needed-counter" aria-live="polite"
+              >0 seleccionadas</span
+            >
+          </div>
+
+          <div class="section-tools">
+            <label class="search-field">
+              <span>Buscar por país o número</span>
+              <input
+                id="needed-search"
+                type="search"
+                placeholder="Ej.: ARG o 10"
+                autocomplete="off"
+              />
+            </label>
+            <button
+              class="button button-small button-ghost"
+              id="needed-clear"
+              type="button"
+            >
+              Limpiar selección
+            </button>
+          </div>
+
+          <div id="needed-list" class="country-list"></div>
+          <p id="needed-empty" class="empty-state" hidden>
+            No hay coincidencias para tu búsqueda.
+          </p>
+        </section>
+
+        <section class="sticker-section" aria-labelledby="offered-title">
+          <div class="section-heading">
+            <div>
+              <p class="step">Paso 2</p>
+              <h2 id="offered-title">Figuritas que me das a cambio</h2>
+            </div>
+            <span class="counter" id="offered-counter" aria-live="polite"
+              >0 seleccionadas</span
+            >
+          </div>
+
+          <div class="section-tools" id="offered-tools">
+            <label class="search-field">
+              <span>Buscar por país o número</span>
+              <input
+                id="offered-search"
+                type="search"
+                placeholder="Ej.: BRA o 7"
+                autocomplete="off"
+              />
+            </label>
+            <button
+              class="button button-small button-ghost"
+              id="offered-clear"
+              type="button"
+            >
+              Limpiar selección
+            </button>
+          </div>
+
+          <div id="offered-list" class="country-list"></div>
+          <p id="offered-empty" class="empty-state" hidden>
+            No hay coincidencias para tu búsqueda.
+          </p>
+        </section>
+      </div>
+
+      <section
+        id="summary"
+        class="summary"
+        aria-labelledby="summary-title"
+        hidden
+      >
+        <div>
+          <p class="step">Tu selección</p>
+          <h2 id="summary-title">Resumen del canje</h2>
+        </div>
+        <dl class="summary-totals">
+          <div>
+            <dt>Total que necesitás</dt>
+            <dd id="needed-total">0</dd>
+          </div>
+          <div>
+            <dt>Total que me das</dt>
+            <dd id="offered-total">0</dd>
+          </div>
+          <div>
+            <dt>Diferencia</dt>
+            <dd id="difference-total">0</dd>
+          </div>
+        </dl>
+        <div id="form-message" class="status" role="alert" hidden></div>
+        <div id="exchange-rule" class="exchange-rule" hidden>
+          <p>
+            El canje se realiza figurita por figurita; si necesitas más
+            figuritas de las que vos me das; el canje se realiza 1 sobre cerrado
+            cada 7 figuritas.
+          </p>
+          <p id="suggested-packs"></p>
+        </div>
+        <button
+          id="exchange-button"
+          class="button button-primary"
+          type="button"
+        >
+          Canjear por WhatsApp
+        </button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        Canje de figuritas Mundial 2026 - by
+        <a href="https://github.com/diegoplencovich" target="_blank"
+          >Diego Plencovich</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
