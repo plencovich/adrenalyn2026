@@ -12,7 +12,7 @@ canje y enviarla por WhatsApp. El mismo archivo JSON alimenta la web y la genera
   "collection": {
     "name": "FIFA World Cup 2026 Adrenalyn XL",
     "publisher": "Panini",
-    "total_cards": 620,
+    "total_cards": 630,
     "numbering": "global"
   },
   "checklist": {
@@ -47,7 +47,7 @@ canje y enviarla por WhatsApp. El mismo archivo JSON alimenta la web y la genera
 }
 ```
 
-La colección usa numeración global de tarjeta. `checklist` contiene el catálogo maestro de 620
+La colección usa numeración global de tarjeta. `checklist` contiene el catálogo maestro de 630
 tarjetas y `stock` es el inventario editable: agregá `number` y `quantity`, y ejecutá el generador.
 `repetidas` y `faltantes` son vistas derivadas de `stock`: no se editan a mano. La web y el
 generador de PDFs también recalculan esas vistas al leer el JSON.
@@ -93,6 +93,7 @@ Generá cada listado con:
 ```bash
 python3 crear_pdf.py repetidas
 python3 crear_pdf.py faltantes
+python3 crear_pdf.py stock
 ```
 
 Sin argumento se genera `listado-repetidas.pdf`, igual que en el flujo original. `crear_pdf.py`

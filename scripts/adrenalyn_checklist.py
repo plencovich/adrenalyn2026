@@ -38,7 +38,7 @@ DATA_FILE = ROOT_DIR / "data" / "figuritas.json"
 COLLECTION = {
     "name": "FIFA World Cup 2026 Adrenalyn XL",
     "publisher": "Panini",
-    "total_cards": 620,
+    "total_cards": 630,
     "numbering": "global",
 }
 
@@ -96,18 +96,13 @@ RANGES: list[tuple[str, int, int]] = [
     ("USA", 478, 489),
     ("URU", 490, 501),
     ("UZB", 502, 513),
-    ("CONTENDERS", 514, 519),
-    ("DEN", 520, 524),
-    ("ITA", 525, 529),
-    ("JAM", 530, 534),
-    ("POL", 535, 539),
-    ("SWE", 540, 544),
-    ("TUR", 545, 549),
+    ("CONTENDERS", 514, 549),
     ("TOP_KEEPERS", 550, 558),
     ("DEFENSIVE_ROCKS", 559, 567),
     ("MIDFIELD_MAESTROS", 568, 585),
     ("GOAL_MACHINES", 586, 607),
-    ("MASTER_ROOKIES", 608, 620),
+    ("MASTER_ROOKIES", 608, 623),
+    ("VARIOS", 624, 630),
 ]
 
 SPECIAL_KEYS = {
@@ -118,6 +113,7 @@ SPECIAL_KEYS = {
     "MIDFIELD_MAESTROS",
     "GOAL_MACHINES",
     "MASTER_ROOKIES",
+    "VARIOS",
 }
 GROUP_ORDER = [group for group, _, _ in RANGES]
 COUNTRY_KEYS = set(GROUP_ORDER) - SPECIAL_KEYS
@@ -129,10 +125,7 @@ GROUP_BY_NUMBER = {
 }
 ALLOWED_POSITIONS = {value for value in POSITION_BY_CODE.values() if value is not None}
 
-# Source transcribed from fifa-wc-tcg-26_checklist-pdf-international-lr.pdf.
 # The PDF is image-based; this is the reviewed structured source used at build time.
-# The visible PDF also lists 621-630, but this stage is intentionally constrained to
-# the user-requested official ranges 1-620.
 SOURCE_ROWS = """
 1;GOLDEN_BALLERS;MESSI (ARG);FW
 2;GOLDEN_BALLERS;VINÍCIUS JÚNIOR (BRA);FW
@@ -653,36 +646,36 @@ SOURCE_ROWS = """
 517;CONTENDERS;DEN - MKD/CZE - IRL;
 518;CONTENDERS;NCL - JAM/COD;
 519;CONTENDERS;SUR - BOL/IRQ;
-520;DEN;HJULMAND (DEN);MF
-521;DEN;HØJBJERG (DEN);MF
-522;DEN;ERIKSEN (DEN);MF
-523;DEN;DAMSGAARD (DEN);MF
-524;DEN;HØJLUND (DEN);FW
-525;ITA;DONNARUMMA (ITA);GK
-526;ITA;BASTONI (ITA);DF
-527;ITA;TONALI (ITA);MF
-528;ITA;BARELLA (ITA);MF
-529;ITA;KEAN (ITA);FW
-530;JAM;BLAKE (JAM);GK
-531;JAM;PINNOCK (JAM);DF
-532;JAM;GRAY (JAM);FW
-533;JAM;BAILEY (JAM);FW
-534;JAM;NICHOLSON (JAM);FW
-535;POL;CASH (POL);DF
-536;POL;KIWIOR (POL);DF
-537;POL;ZIELIŃSKI (POL);MF
-538;POL;SZYMAŃSKI (POL);MF
-539;POL;LEWANDOWSKI (POL);FW
-540;SWE;HIEN (SWE);DF
-541;SWE;KULUSEVSKI (SWE);MF
-542;SWE;ELANGA (SWE);FW
-543;SWE;GYÖKERES (SWE);FW
-544;SWE;ISAK (SWE);FW
-545;TUR;SÖYÜNCÜ (TUR);DF
-546;TUR;ÇALHANOĞLU (TUR);MF
-547;TUR;GÜLER (TUR);MF
-548;TUR;YILDIZ (TUR);FW
-549;TUR;AKTÜRKOĞLU (TUR);FW
+520;CONTENDERS;HJULMAND (DEN);MF
+521;CONTENDERS;HØJBJERG (DEN);MF
+522;CONTENDERS;ERIKSEN (DEN);MF
+523;CONTENDERS;DAMSGAARD (DEN);MF
+524;CONTENDERS;HØJLUND (DEN);FW
+525;CONTENDERS;DONNARUMMA (ITA);GK
+526;CONTENDERS;BASTONI (ITA);DF
+527;CONTENDERS;TONALI (ITA);MF
+528;CONTENDERS;BARELLA (ITA);MF
+529;CONTENDERS;KEAN (ITA);FW
+530;CONTENDERS;BLAKE (JAM);GK
+531;CONTENDERS;PINNOCK (JAM);DF
+532;CONTENDERS;GRAY (JAM);FW
+533;CONTENDERS;BAILEY (JAM);FW
+534;CONTENDERS;NICHOLSON (JAM);FW
+535;CONTENDERS;CASH (POL);DF
+536;CONTENDERS;KIWIOR (POL);DF
+537;CONTENDERS;ZIELIŃSKI (POL);MF
+538;CONTENDERS;SZYMAŃSKI (POL);MF
+539;CONTENDERS;LEWANDOWSKI (POL);FW
+540;CONTENDERS;HIEN (SWE);DF
+541;CONTENDERS;KULUSEVSKI (SWE);MF
+542;CONTENDERS;ELANGA (SWE);FW
+543;CONTENDERS;GYÖKERES (SWE);FW
+544;CONTENDERS;ISAK (SWE);FW
+545;CONTENDERS;SÖYÜNCÜ (TUR);DF
+546;CONTENDERS;ÇALHANOĞLU (TUR);MF
+547;CONTENDERS;GÜLER (TUR);MF
+548;CONTENDERS;YILDIZ (TUR);FW
+549;CONTENDERS;AKTÜRKOĞLU (TUR);FW
 550;TOP_KEEPERS;MARTÍNEZ (ARG);GK
 551;TOP_KEEPERS;COURTOIS (BEL);GK
 552;TOP_KEEPERS;ALISSON (BRA);GK
@@ -754,6 +747,16 @@ SOURCE_ROWS = """
 618;MASTER_ROOKIES;WOLTEMADE (GER);FW
 619;MASTER_ROOKIES;SIMONS (NED);FW
 620;MASTER_ROOKIES;SCHJELDERUP (NOR);MF
+621;MASTER_ROOKIES;GÓMEZ (PAR);MF
+622;MASTER_ROOKIES;JOÃO NEVES (POR);MF
+623;MASTER_ROOKIES;CUBARSÍ (ESP);DF
+624;VARIOS;OFFICIAL EMBLEM;
+625;VARIOS;OFFICIAL MASCOT - MAPLE;
+626;VARIOS;OFFICIAL MASCOT - CLUTCH;
+627;VARIOS;OFFICIAL MASCOT - ZAYU;
+628;VARIOS;ETERNOS 22 - DEFENDERS;DF
+629;VARIOS;ETERNOS 22 - MIDFIELDERS;MF
+630;VARIOS;ETERNOS 22 - FORWARDS;FW
 """.strip()
 
 
@@ -855,6 +858,37 @@ def stock_quantities(document: dict[str, Any]) -> dict[int, int]:
     return quantities
 
 
+def normalize_stock_for_checklist(
+    document: dict[str, Any],
+    stock: Any,
+) -> dict[str, list[dict[str, int]]]:
+    normalized: dict[str, list[dict[str, int]]] = {group: [] for group in GROUP_ORDER}
+    if not isinstance(stock, dict):
+        return normalized
+
+    lookup = card_lookup(document)
+    quantities: dict[int, int] = {}
+    for entries in stock.values():
+        if not isinstance(entries, list):
+            continue
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            number = entry.get("number")
+            quantity = entry.get("quantity")
+            if not isinstance(number, int) or number not in lookup:
+                continue
+            if not isinstance(quantity, int) or quantity < 1:
+                continue
+            quantities[number] = quantities.get(number, 0) + quantity
+
+    for number in sorted(quantities):
+        group, _ = lookup[number]
+        normalized[group].append({"number": number, "quantity": quantities[number]})
+
+    return normalized
+
+
 def derive_inventory(document: dict[str, Any]) -> tuple[dict[str, list[dict[str, Any]]], dict[str, list[dict[str, Any]]]]:
     lookup = card_lookup(document)
     by_group = checklist_numbers_by_group(document)
@@ -941,7 +975,7 @@ def validate_document(document: dict[str, Any]) -> list[str]:
         if duplicates:
             errors.append(f"checklist has duplicate numbers: {duplicates}")
         if not missing and not duplicates:
-            errors.append("checklist numbers are not in deterministic 1-620 order")
+            errors.append(f"checklist numbers are not in deterministic 1-{COLLECTION['total_cards']} order")
 
     for group, card in all_cards:
         number = card.get("number")

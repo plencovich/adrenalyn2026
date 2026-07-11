@@ -7,6 +7,7 @@ from adrenalyn_checklist import (
     DATA_FILE,
     build_document,
     load_document,
+    normalize_stock_for_checklist,
     validate_document,
     with_derived_inventory,
 )
@@ -17,7 +18,7 @@ def write_json(path: Path = DATA_FILE) -> None:
     if path.exists():
         current = load_document(path)
         if isinstance(current.get("stock"), dict):
-            document["stock"] = current["stock"]
+            document["stock"] = normalize_stock_for_checklist(document, current["stock"])
             document = with_derived_inventory(document)
 
     errors = validate_document(document)

@@ -10,7 +10,7 @@ numeración global del 1 al 630.
   "collection": {
     "name": "FIFA World Cup 2026 Adrenalyn XL",
     "publisher": "Panini",
-    "total_cards": 620,
+    "total_cards": 630,
     "numbering": "global"
   },
   "checklist": {
@@ -63,8 +63,8 @@ Valores permitidos:
 - `icon`
 - `null`
 
-`null` se usa para tarjetas sin posición o tipo confiable, por ejemplo `TEAM CREST` y
-`CONTENDERS`.
+`null` se usa para tarjetas sin posición o tipo confiable, por ejemplo `TEAM CREST`, los cruces
+iniciales de `CONTENDERS` y algunas tarjetas de `VARIOS`.
 
 ## Inventario
 
@@ -108,7 +108,10 @@ catálogo y `stock`, cantidades válidas, y que `repetidas`/`faltantes` coincida
 Las categorías especiales usan keys propias y no se tratan como países:
 
 `GOLDEN_BALLERS`, `CONTENDERS`, `TOP_KEEPERS`, `DEFENSIVE_ROCKS`, `MIDFIELD_MAESTROS`,
-`GOAL_MACHINES`, `MASTER_ROOKIES`.
+`GOAL_MACHINES`, `MASTER_ROOKIES`, `VARIOS`.
 
-El PDF visible también muestra tarjetas 621-630, pero esta etapa se limitó a 1-620 para respetar
-los rangos y validaciones solicitados.
+Rangos especiales actualizados:
+
+- `CONTENDERS`: 514-549
+- `MASTER_ROOKIES`: 608-623
+- `VARIOS`: 624-630

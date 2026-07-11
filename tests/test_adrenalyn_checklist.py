@@ -36,8 +36,8 @@ class AdrenalynChecklistTests(unittest.TestCase):
     def test_first_card_is_one(self) -> None:
         self.assertEqual(self.cards[0]["number"], 1)
 
-    def test_last_card_is_620(self) -> None:
-        self.assertEqual(self.cards[-1]["number"], 620)
+    def test_last_card_is_630(self) -> None:
+        self.assertEqual(self.cards[-1]["number"], 630)
 
     def test_no_missing_numbers(self) -> None:
         self.assertEqual(
@@ -89,8 +89,11 @@ class AdrenalynChecklistTests(unittest.TestCase):
         self.assertFalse(validate_document(document))
 
     def test_empty_stock_marks_all_cards_as_faltantes(self) -> None:
-        missing_total = sum(len(cards) for cards in self.document["faltantes"].values())
-        repeated_total = sum(len(cards) for cards in self.document["repetidas"].values())
+        document = copy.deepcopy(self.document)
+        document["stock"] = {group: [] for group in GROUP_ORDER}
+        document = with_derived_inventory(document)
+        missing_total = sum(len(cards) for cards in document["faltantes"].values())
+        repeated_total = sum(len(cards) for cards in document["repetidas"].values())
         self.assertEqual(missing_total, COLLECTION["total_cards"])
         self.assertEqual(repeated_total, 0)
 
