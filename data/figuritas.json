@@ -3224,11 +3224,84 @@
         "quantity": 1
       }
     ],
-    "ALG": [],
+    "ALG": [
+      {
+        "number": 12,
+        "quantity": 1
+      },
+      {
+        "number": 13,
+        "quantity": 2
+      },
+      {
+        "number": 14,
+        "quantity": 2
+      },
+      {
+        "number": 15,
+        "quantity": 2
+      },
+      {
+        "number": 16,
+        "quantity": 1
+      },
+      {
+        "number": 17,
+        "quantity": 1
+      },
+      {
+        "number": 20,
+        "quantity": 1
+      },
+      {
+        "number": 21,
+        "quantity": 1
+      }
+    ],
     "ARG": [
       {
+        "number": 23,
+        "quantity": 1
+      },
+      {
         "number": 24,
-        "quantity":1
+        "quantity": 1
+      },
+      {
+        "number": 25,
+        "quantity": 1
+      },
+      {
+        "number": 26,
+        "quantity": 2
+      },
+      {
+        "number": 27,
+        "quantity": 2
+      },
+      {
+        "number": 28,
+        "quantity": 2
+      },
+      {
+        "number": 29,
+        "quantity": 3
+      },
+      {
+        "number": 30,
+        "quantity": 1
+      },
+      {
+        "number": 31,
+        "quantity": 4
+      },
+      {
+        "number": 32,
+        "quantity": 2
+      },
+      {
+        "number": 33,
+        "quantity": 1
       }
     ],
     "AUS": [],
@@ -3429,12 +3502,6 @@
     "URU": [],
     "UZB": [],
     "CONTENDERS": [],
-    "DEN": [],
-    "ITA": [],
-    "JAM": [],
-    "POL": [],
-    "SWE": [],
-    "TUR": [],
     "TOP_KEEPERS": [],
     "DEFENSIVE_ROCKS": [],
     "MIDFIELD_MAESTROS": [],
