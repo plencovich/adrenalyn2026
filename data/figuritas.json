@@ -4805,23 +4805,7 @@
   },
   "repetidas": {
     "GOLDEN_BALLERS": [],
-    "ALG": [
-      {
-        "number": 13,
-        "name": "ALEXIS GUENDOUZ",
-        "position": "goalkeeper"
-      },
-      {
-        "number": 14,
-        "name": "RAMY BENSEBAINI",
-        "position": "defender"
-      },
-      {
-        "number": 15,
-        "name": "YOUCEF ATAL",
-        "position": "defender"
-      }
-    ],
+    "ALG": [],
     "ARG": [
       {
         "number": 26,
@@ -4829,19 +4813,9 @@
         "position": "defender"
       },
       {
-        "number": 27,
-        "name": "CRISTIAN ROMERO",
-        "position": "defender"
-      },
-      {
         "number": 28,
         "name": "NICOLÁS OTAMENDI",
         "position": "defender"
-      },
-      {
-        "number": 29,
-        "name": "ENZO FERNÁNDEZ",
-        "position": "midfielder"
       },
       {
         "number": 29,
@@ -4895,11 +4869,6 @@
     ],
     "BEL": [
       {
-        "number": 60,
-        "name": "KEVIN DE BRUYNE",
-        "position": "icon"
-      },
-      {
         "number": 62,
         "name": "ARTHUR THEATE",
         "position": "defender"
@@ -4922,11 +4891,6 @@
         "number": 87,
         "name": "DEREK CORNELIUS",
         "position": "defender"
-      },
-      {
-        "number": 93,
-        "name": "CYLE LARIN",
-        "position": "forward"
       }
     ],
     "CPV": [
@@ -5068,11 +5032,6 @@
         "position": "defender"
       },
       {
-        "number": 243,
-        "name": "ODILON KOSSOUNOU",
-        "position": "defender"
-      },
-      {
         "number": 245,
         "name": "WILFRIED SINGO",
         "position": "defender"
@@ -5211,11 +5170,6 @@
         "position": null
       },
       {
-        "number": 347,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
         "number": 348,
         "name": "ANÍBAL GODOY",
         "position": "icon"
@@ -5242,11 +5196,6 @@
       {
         "number": 376,
         "name": "BERNARDO SILVA",
-        "position": "midfielder"
-      },
-      {
-        "number": 378,
-        "name": "RÚBEN NEVES",
         "position": "midfielder"
       },
       {
@@ -5287,19 +5236,9 @@
         "number": 403,
         "name": "MUSAB ALJUWAYR",
         "position": "midfielder"
-      },
-      {
-        "number": 403,
-        "name": "MUSAB ALJUWAYR",
-        "position": "midfielder"
       }
     ],
     "SCO": [
-      {
-        "number": 408,
-        "name": "ANDREW ROBERTSON",
-        "position": "icon"
-      },
       {
         "number": 416,
         "name": "BEN GANNON-DOAK",
@@ -5315,22 +5254,12 @@
     ],
     "RSA": [
       {
-        "number": 435,
-        "name": "MBEKEZELI MBOKAZI",
-        "position": "defender"
-      },
-      {
         "number": 441,
         "name": "IQRAAM RAYNERS",
         "position": "forward"
       }
     ],
     "ESP": [
-      {
-        "number": 446,
-        "name": "ROBIN LE NORMAND",
-        "position": "defender"
-      },
       {
         "number": 446,
         "name": "ROBIN LE NORMAND",
@@ -5414,11 +5343,6 @@
         "number": 509,
         "name": "RUSTAM ASHURMATOV",
         "position": "defender"
-      },
-      {
-        "number": 513,
-        "name": "ABBOSBEK FAYZULLAEV",
-        "position": "forward"
       }
     ],
     "CONTENDERS": [
@@ -5452,16 +5376,6 @@
       {
         "number": 551,
         "name": "COURTOIS (BEL)",
-        "position": "goalkeeper"
-      },
-      {
-        "number": 555,
-        "name": "BOUNOU (MAR)",
-        "position": "goalkeeper"
-      },
-      {
-        "number": 558,
-        "name": "KOBEL (SUI)",
         "position": "goalkeeper"
       }
     ],
@@ -5573,11 +5487,6 @@
         "position": null
       },
       {
-        "number": 40,
-        "name": "MILOS DEGENEK",
-        "position": "defender"
-      },
-      {
         "number": 41,
         "name": "JACKSON IRVINE",
         "position": "midfielder"
@@ -5684,11 +5593,6 @@
         "position": "defender"
       },
       {
-        "number": 79,
-        "name": "RODRYGO",
-        "position": "forward"
-      },
-      {
         "number": 80,
         "name": "MATHEUS CUNHA",
         "position": "forward"
@@ -5758,11 +5662,6 @@
         "number": 111,
         "name": "YERRY MINA",
         "position": "defender"
-      },
-      {
-        "number": 113,
-        "name": "JEFFERSON LERMA",
-        "position": "midfielder"
       },
       {
         "number": 116,
@@ -5917,11 +5816,6 @@
         "position": "fan_favourite"
       },
       {
-        "number": 179,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
         "number": 180,
         "name": "KYLIAN MBAPPÉ",
         "position": "icon"
@@ -5937,16 +5831,6 @@
         "number": 192,
         "name": "JOSHUA KIMMICH",
         "position": "icon"
-      },
-      {
-        "number": 194,
-        "name": "ANTONIO RÜDIGER",
-        "position": "defender"
-      },
-      {
-        "number": 195,
-        "name": "JONATHAN TAH",
-        "position": "defender"
       },
       {
         "number": 197,
@@ -6202,11 +6086,6 @@
         "position": null
       },
       {
-        "number": 300,
-        "name": "ACHRAF HAKIMI",
-        "position": "icon"
-      },
-      {
         "number": 302,
         "name": "NOUSSAIR MAZRAOUI",
         "position": "defender"
@@ -6242,11 +6121,6 @@
         "number": 316,
         "name": "DENZEL DUMFRIES",
         "position": "defender"
-      },
-      {
-        "number": 320,
-        "name": "DONYELL MALEN",
-        "position": "forward"
       },
       {
         "number": 321,
@@ -6332,24 +6206,9 @@
         "position": "icon"
       },
       {
-        "number": 362,
-        "name": "JUAN JOSÉ CÁCERES",
-        "position": "defender"
-      },
-      {
         "number": 364,
         "name": "JÚNIOR ALONSO",
         "position": "defender"
-      },
-      {
-        "number": 366,
-        "name": "MATHÍAS VILLASANTI",
-        "position": "midfielder"
-      },
-      {
-        "number": 367,
-        "name": "JULIO ENCISO",
-        "position": "midfielder"
       }
     ],
     "POR": [
@@ -6410,11 +6269,6 @@
       {
         "number": 399,
         "name": "JEHAD THIKRI",
-        "position": "defender"
-      },
-      {
-        "number": 400,
-        "name": "SAUD ABDULHAMID",
         "position": "defender"
       },
       {
@@ -6609,29 +6463,14 @@
     ],
     "URU": [
       {
-        "number": 492,
-        "name": "FEDERICO VALVERDE",
-        "position": "icon"
-      },
-      {
         "number": 494,
         "name": "RONALD ARAÚJO",
-        "position": "defender"
-      },
-      {
-        "number": 495,
-        "name": "SEBASTIÁN CÁCERES",
         "position": "defender"
       },
       {
         "number": 498,
         "name": "RODRIGO BENTANCUR",
         "position": "midfielder"
-      },
-      {
-        "number": 501,
-        "name": "DARWIN NÚÑEZ",
-        "position": "forward"
       }
     ],
     "UZB": [
@@ -6824,18 +6663,8 @@
         "position": "midfielder"
       },
       {
-        "number": 575,
-        "name": "WIRTZ (GER)",
-        "position": "midfielder"
-      },
-      {
         "number": 577,
         "name": "REIJNDERS (NED)",
-        "position": "midfielder"
-      },
-      {
-        "number": 579,
-        "name": "VITINHA (POR)",
         "position": "midfielder"
       },
       {
