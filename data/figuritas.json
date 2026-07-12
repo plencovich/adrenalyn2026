@@ -4644,6 +4644,10 @@
       {
         "number": 563,
         "quantity": 2
+      },
+      {
+        "number": 567,
+        "quantity": 1
       }
     ],
     "MIDFIELD_MAESTROS": [
@@ -4661,6 +4665,10 @@
       },
       {
         "number": 578,
+        "quantity": 1
+      },
+      {
+        "number": 580,
         "quantity": 1
       },
       {
@@ -4683,6 +4691,10 @@
       },
       {
         "number": 596,
+        "quantity": 1
+      },
+      {
+        "number": 600,
         "quantity": 1
       }
     ],
@@ -4712,7 +4724,16 @@
         "quantity": 1
       }
     ],
-    "VARIOS": []
+    "VARIOS": [
+      {
+        "number": 626,
+        "quantity": 1
+      },
+      {
+        "number": 627,
+        "quantity": 2
+      }
+    ]
   },
   "repetidas": {
     "GOLDEN_BALLERS": [],
