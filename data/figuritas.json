@@ -3271,15 +3271,15 @@
       },
       {
         "number": 13,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 14,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 15,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 16,
@@ -3317,7 +3317,7 @@
       },
       {
         "number": 27,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 28,
@@ -3325,7 +3325,7 @@
       },
       {
         "number": 29,
-        "quantity": 3
+        "quantity": 2
       },
       {
         "number": 30,
@@ -3411,7 +3411,7 @@
       },
       {
         "number": 60,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 61,
@@ -3487,7 +3487,7 @@
       },
       {
         "number": 93,
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "CPV": [
@@ -3869,7 +3869,7 @@
       },
       {
         "number": 243,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 245,
@@ -4135,7 +4135,7 @@
     "PAN": [
       {
         "number": 347,
-        "quantity": 3
+        "quantity": 2
       },
       {
         "number": 348,
@@ -4227,7 +4227,7 @@
       },
       {
         "number": 378,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 379,
@@ -4299,7 +4299,7 @@
       },
       {
         "number": 403,
-        "quantity": 3
+        "quantity": 2
       },
       {
         "number": 404,
@@ -4313,7 +4313,7 @@
       },
       {
         "number": 408,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 409,
@@ -4365,7 +4365,7 @@
       },
       {
         "number": 435,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 436,
@@ -4399,7 +4399,7 @@
       },
       {
         "number": 446,
-        "quantity": 3
+        "quantity": 2
       },
       {
         "number": 447,
@@ -4585,7 +4585,7 @@
       },
       {
         "number": 513,
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "CONTENDERS": [
@@ -4677,7 +4677,7 @@
       },
       {
         "number": 555,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 556,
@@ -4685,7 +4685,7 @@
       },
       {
         "number": 558,
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "DEFENSIVE_ROCKS": [
