@@ -4528,7 +4528,84 @@
         "quantity": 2
       }
     ],
-    "CONTENDERS": [],
+    "CONTENDERS": [
+      {
+        "number": 515,
+        "quantity": 1
+      },
+      {
+        "number": 517,
+        "quantity": 2
+      },
+      {
+        "number": 519,
+        "quantity": 1
+      },
+      {
+        "number": 520,
+        "quantity": 1
+      },
+      {
+        "number": 521,
+        "quantity": 1
+      },
+      {
+        "number": 522,
+        "quantity": 1
+      },
+      {
+        "number": 525,
+        "quantity": 1
+      },
+      {
+        "number": 528,
+        "quantity": 1
+      },
+      {
+        "number": 530,
+        "quantity": 1
+      },
+      {
+        "number": 532,
+        "quantity": 1
+      },
+      {
+        "number": 534,
+        "quantity": 1
+      },
+      {
+        "number": 535,
+        "quantity": 1
+      },
+      {
+        "number": 538,
+        "quantity": 1
+      },
+      {
+        "number": 541,
+        "quantity": 2
+      },
+      {
+        "number": 542,
+        "quantity": 2
+      },
+      {
+        "number": 543,
+        "quantity": 1
+      },
+      {
+        "number": 545,
+        "quantity": 2
+      },
+      {
+        "number": 547,
+        "quantity": 1
+      },
+      {
+        "number": 549,
+        "quantity": 2
+      }
+    ],
     "TOP_KEEPERS": [
       {
         "number": 551,
@@ -4635,13 +4712,7 @@
         "quantity": 1
       }
     ],
-    "VARIOS": [],
-    "SWE": [
-      {
-        "number": 543,
-        "quantity": 1
-      }
-    ]
+    "VARIOS": []
   },
   "repetidas": {
     "GOLDEN_BALLERS": [],
