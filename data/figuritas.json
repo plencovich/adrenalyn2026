@@ -3260,6 +3260,10 @@
   "stock": {
     "GOLDEN_BALLERS": [
       {
+        "number": 1,
+        "quantity": 1
+      },
+      {
         "number": 9,
         "quantity": 1
       }
@@ -3299,6 +3303,10 @@
       }
     ],
     "ARG": [
+      {
+        "number": 22,
+        "quantity": 1
+      },
       {
         "number": 23,
         "quantity": 1
@@ -4712,6 +4720,10 @@
     ],
     "MIDFIELD_MAESTROS": [
       {
+        "number": 568,
+        "quantity": 1
+      },
+      {
         "number": 571,
         "quantity": 1
       },
@@ -5411,11 +5423,6 @@
   "faltantes": {
     "GOLDEN_BALLERS": [
       {
-        "number": 1,
-        "name": "MESSI (ARG)",
-        "position": "forward"
-      },
-      {
         "number": 2,
         "name": "VINÍCIUS JÚNIOR (BRA)",
         "position": "forward"
@@ -5473,13 +5480,7 @@
         "position": "forward"
       }
     ],
-    "ARG": [
-      {
-        "number": 22,
-        "name": "JULIÁN ÁLVAREZ",
-        "position": "fan_favourite"
-      }
-    ],
+    "ARG": [],
     "AUS": [
       {
         "number": 35,
@@ -6637,11 +6638,6 @@
       }
     ],
     "MIDFIELD_MAESTROS": [
-      {
-        "number": 568,
-        "name": "FERNÁNDEZ (ARG)",
-        "position": "midfielder"
-      },
       {
         "number": 569,
         "name": "DE BRUYNE (BEL)",
