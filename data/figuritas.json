@@ -3363,7 +3363,7 @@
       },
       {
         "number": 36,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 37,
@@ -3443,7 +3443,7 @@
       },
       {
         "number": 62,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 63,
@@ -4599,7 +4599,7 @@
       },
       {
         "number": 472,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 474,
@@ -5002,11 +5002,6 @@
     ],
     "AUS": [
       {
-        "number": 36,
-        "name": "MATHEW RYAN",
-        "position": "icon"
-      },
-      {
         "number": 37,
         "name": "ALESSANDRO CIRCATI",
         "position": "defender"
@@ -5024,13 +5019,7 @@
         "position": "midfielder"
       }
     ],
-    "BEL": [
-      {
-        "number": 62,
-        "name": "ARTHUR THEATE",
-        "position": "defender"
-      }
-    ],
+    "BEL": [],
     "BRA": [],
     "CAN": [
       {
@@ -5319,11 +5308,6 @@
         "number": 469,
         "name": "AYMEN DAHMEN",
         "position": "goalkeeper"
-      },
-      {
-        "number": 472,
-        "name": "ALI ABDI",
-        "position": "defender"
       },
       {
         "number": 476,
