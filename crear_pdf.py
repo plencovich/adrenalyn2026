@@ -36,6 +36,7 @@ class PdfCard:
     group: str
     number: int
     name: str
+    position: str | None = None
     quantity: int = 1
 
 
@@ -104,20 +105,26 @@ def build_pdf_cards(document: dict[str, Any], kind: PdfKind) -> tuple[dict[str, 
         quantity = quantities.get(number, 0)
 
         if kind == "faltantes" and quantity == 0:
-            grouped[group].append(PdfCard(group, number, card["name"]))
+            grouped[group].append(PdfCard(group, number, card["name"], card.get("position")))
         elif kind == "repetidas" and quantity > 1:
-            grouped[group].append(PdfCard(group, number, card["name"], quantity - 1))
+            grouped[group].append(PdfCard(group, number, card["name"], card.get("position"), quantity - 1))
         elif kind == "stock" and quantity > 0:
-            grouped[group].append(PdfCard(group, number, card["name"], quantity))
+            grouped[group].append(PdfCard(group, number, card["name"], card.get("position"), quantity))
 
     return grouped, warnings
 
 
 def card_text(card: PdfCard, kind: PdfKind) -> str:
+    tag_by_position = {
+        "fan_favourite": "FF",
+        "icon": "IC",
+    }
+    tag = tag_by_position.get(card.position)
+    prefix = f"[{tag}] " if kind == "faltantes" and tag else ""
     suffix = ""
     if kind in {"repetidas", "stock"}:
         suffix = f" x{card.quantity}"
-    return f"{card.number} - {card.name}{suffix}"
+    return f"{card.number} - {prefix}{card.name}{suffix}"
 
 
 def wrap_card_text(text: str) -> list[str]:
