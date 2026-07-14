@@ -3378,10 +3378,6 @@
         "quantity": 1
       },
       {
-        "number": 40,
-        "quantity": 1
-      },
-      {
         "number": 42,
         "quantity": 1
       },
@@ -3829,11 +3825,11 @@
       },
       {
         "number": 196,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 198,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 199,
@@ -3902,10 +3898,6 @@
     ],
     "IRN": [
       {
-        "number": 227,
-        "quantity": 1
-      },
-      {
         "number": 228,
         "quantity": 1
       },
@@ -3931,6 +3923,10 @@
       },
       {
         "number": 236,
+        "quantity": 1
+      },
+      {
+        "number": 237,
         "quantity": 1
       }
     ],
@@ -4573,7 +4569,7 @@
       },
       {
         "number": 462,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 465,
@@ -5119,8 +5115,8 @@
         "position": "goalkeeper"
       },
       {
-        "number": 196,
-        "name": "FELIX NMECHA",
+        "number": 198,
+        "name": "FLORIAN WIRTZ",
         "position": "midfielder"
       }
     ],
@@ -5302,7 +5298,13 @@
         "position": "defender"
       }
     ],
-    "SUI": [],
+    "SUI": [
+      {
+        "number": 462,
+        "name": "REMO FREULER",
+        "position": "midfielder"
+      }
+    ],
     "TUN": [
       {
         "number": 469,
@@ -5437,6 +5439,11 @@
         "number": 35,
         "name": "TEAM CREST",
         "position": null
+      },
+      {
+        "number": 40,
+        "name": "MILOS DEGENEK",
+        "position": "defender"
       },
       {
         "number": 41,
@@ -5791,6 +5798,11 @@
         "position": "fan_favourite"
       },
       {
+        "number": 227,
+        "name": "TEAM CREST",
+        "position": null
+      },
+      {
         "number": 229,
         "name": "ALIREZA BEIRANVAND",
         "position": "goalkeeper"
@@ -5799,11 +5811,6 @@
         "number": 232,
         "name": "RAMIN REZAEIAN",
         "position": "defender"
-      },
-      {
-        "number": 237,
-        "name": "ALIREZA JAHANBAKHSH",
-        "position": "forward"
       }
     ],
     "CIV": [
