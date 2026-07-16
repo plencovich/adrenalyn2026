@@ -3596,6 +3596,10 @@
     ],
     "CRO": [
       {
+        "number": 120,
+        "quantity": 1
+      },
+      {
         "number": 121,
         "quantity": 3
       },
@@ -3740,6 +3744,10 @@
         "quantity": 1
       },
       {
+        "number": 170,
+        "quantity": 1
+      },
+      {
         "number": 171,
         "quantity": 1
       },
@@ -3825,6 +3833,10 @@
       },
       {
         "number": 196,
+        "quantity": 1
+      },
+      {
+        "number": 197,
         "quantity": 1
       },
       {
@@ -5600,11 +5612,6 @@
         "position": null
       },
       {
-        "number": 120,
-        "name": "LUKA MODRIĆ",
-        "position": "icon"
-      },
-      {
         "number": 128,
         "name": "ANTE BUDIMIR",
         "position": "forward"
@@ -5688,11 +5695,6 @@
     ],
     "ENG": [
       {
-        "number": 170,
-        "name": "REECE JAMES",
-        "position": "defender"
-      },
-      {
         "number": 173,
         "name": "JORDAN HENDERSON",
         "position": "midfielder"
@@ -5720,11 +5722,6 @@
         "number": 192,
         "name": "JOSHUA KIMMICH",
         "position": "icon"
-      },
-      {
-        "number": 197,
-        "name": "LEON GORETZKA",
-        "position": "midfielder"
       }
     ],
     "GHA": [
