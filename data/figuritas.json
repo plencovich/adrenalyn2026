@@ -3265,7 +3265,7 @@
       },
       {
         "number": 9,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "ALG": [
@@ -3476,6 +3476,10 @@
         "quantity": 1
       },
       {
+        "number": 75,
+        "quantity": 1
+      },
+      {
         "number": 77,
         "quantity": 1
       },
@@ -3545,6 +3549,10 @@
       },
       {
         "number": 101,
+        "quantity": 1
+      },
+      {
+        "number": 102,
         "quantity": 1
       },
       {
@@ -3663,6 +3671,10 @@
       }
     ],
     "ECU": [
+      {
+        "number": 142,
+        "quantity": 1
+      },
       {
         "number": 145,
         "quantity": 1
@@ -3904,6 +3916,10 @@
         "quantity": 1
       },
       {
+        "number": 224,
+        "quantity": 1
+      },
+      {
         "number": 225,
         "quantity": 2
       }
@@ -4089,6 +4105,10 @@
       },
       {
         "number": 289,
+        "quantity": 1
+      },
+      {
+        "number": 292,
         "quantity": 1
       },
       {
@@ -4444,6 +4464,10 @@
         "quantity": 1
       },
       {
+        "number": 414,
+        "quantity": 1
+      },
+      {
         "number": 416,
         "quantity": 2
       }
@@ -4526,6 +4550,10 @@
         "quantity": 1
       },
       {
+        "number": 444,
+        "quantity": 1
+      },
+      {
         "number": 445,
         "quantity": 1
       },
@@ -4535,6 +4563,10 @@
       },
       {
         "number": 447,
+        "quantity": 1
+      },
+      {
+        "number": 448,
         "quantity": 1
       },
       {
@@ -4695,6 +4727,10 @@
       }
     ],
     "UZB": [
+      {
+        "number": 503,
+        "quantity": 1
+      },
       {
         "number": 506,
         "quantity": 1
@@ -4914,6 +4950,10 @@
       {
         "number": 584,
         "quantity": 1
+      },
+      {
+        "number": 585,
+        "quantity": 1
       }
     ],
     "GOAL_MACHINES": [
@@ -4947,6 +4987,10 @@
       }
     ],
     "MASTER_ROOKIES": [
+      {
+        "number": 609,
+        "quantity": 1
+      },
       {
         "number": 610,
         "quantity": 1
@@ -4984,7 +5028,13 @@
     ]
   },
   "repetidas": {
-    "GOLDEN_BALLERS": [],
+    "GOLDEN_BALLERS": [
+      {
+        "number": 9,
+        "name": "YAMAL (ESP)",
+        "position": "forward"
+      }
+    ],
     "ALG": [],
     "ARG": [
       {
@@ -5593,11 +5643,6 @@
         "position": "icon"
       },
       {
-        "number": 75,
-        "name": "ÉDER MILITÃO",
-        "position": "defender"
-      },
-      {
         "number": 76,
         "name": "GABRIEL MAGALHÃES",
         "position": "defender"
@@ -5645,11 +5690,6 @@
         "number": 97,
         "name": "LOGAN COSTA",
         "position": "defender"
-      },
-      {
-        "number": 102,
-        "name": "JAMIRO MONTEIRO",
-        "position": "midfielder"
       }
     ],
     "COL": [
@@ -5719,11 +5759,6 @@
       }
     ],
     "ECU": [
-      {
-        "number": 142,
-        "name": "MOISÉS CAICEDO",
-        "position": "fan_favourite"
-      },
       {
         "number": 143,
         "name": "TEAM CREST",
@@ -5855,11 +5890,6 @@
         "number": 222,
         "name": "DANLEY JEAN JACQUES",
         "position": "midfielder"
-      },
-      {
-        "number": 224,
-        "name": "RUBEN PROVIDENCE",
-        "position": "forward"
       }
     ],
     "IRN": [
@@ -5986,11 +6016,6 @@
       {
         "number": 291,
         "name": "JOHAN VÁSQUEZ",
-        "position": "defender"
-      },
-      {
-        "number": 292,
-        "name": "CÉSAR MONTES",
         "position": "defender"
       },
       {
@@ -6204,11 +6229,6 @@
         "position": "midfielder"
       },
       {
-        "number": 414,
-        "name": "RYAN CHRISTIE",
-        "position": "midfielder"
-      },
-      {
         "number": 415,
         "name": "JOHN MCGINN",
         "position": "midfielder"
@@ -6263,16 +6283,6 @@
         "number": 443,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 444,
-        "name": "RODRI",
-        "position": "icon"
-      },
-      {
-        "number": 448,
-        "name": "MARC CUCURELLA",
-        "position": "defender"
       }
     ],
     "SUI": [
@@ -6368,11 +6378,6 @@
         "number": 502,
         "name": "ABDUKODIR KHUSANOV",
         "position": "fan_favourite"
-      },
-      {
-        "number": 503,
-        "name": "TEAM CREST",
-        "position": null
       },
       {
         "number": 504,
@@ -6521,11 +6526,6 @@
         "number": 583,
         "name": "XHAKA (SUI)",
         "position": "midfielder"
-      },
-      {
-        "number": 585,
-        "name": "VALVERDE (URU)",
-        "position": "midfielder"
       }
     ],
     "GOAL_MACHINES": [
@@ -6610,11 +6610,6 @@
         "number": 608,
         "name": "PAZ (ARG)",
         "position": "midfielder"
-      },
-      {
-        "number": 609,
-        "name": "MASTANTUONO (ARG)",
-        "position": "forward"
       },
       {
         "number": 611,
