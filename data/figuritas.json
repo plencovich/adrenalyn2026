@@ -4993,6 +4993,11 @@
         "position": "defender"
       },
       {
+        "number": 30,
+        "name": "ALEXIS MAC ALLISTER",
+        "position": "midfielder"
+      },
+      {
         "number": 31,
         "name": "RODRIGO DE PAUL",
         "position": "midfielder"
@@ -5027,7 +5032,13 @@
         "position": "midfielder"
       }
     ],
-    "BEL": [],
+    "BEL": [
+      {
+        "number": 68,
+        "name": "LEANDRO TROSSARD",
+        "position": "forward"
+      }
+    ],
     "BRA": [],
     "CAN": [
       {
@@ -5073,6 +5084,11 @@
       }
     ],
     "ECU": [
+      {
+        "number": 146,
+        "name": "PIERO HINCAPIÉ",
+        "position": "defender"
+      },
       {
         "number": 151,
         "name": "ALAN FRANCO",
@@ -5141,6 +5157,11 @@
       }
     ],
     "IRN": [
+      {
+        "number": 228,
+        "name": "SARDAR AZMOUN",
+        "position": "icon"
+      },
       {
         "number": 231,
         "name": "MILAD MOHAMMADI",
@@ -5231,14 +5252,15 @@
         "number": 323,
         "name": "TEAM CREST",
         "position": null
-      },
+      }
+    ],
+    "NOR": [
       {
-        "number": 328,
-        "name": "TIM PAYNE",
+        "number": 340,
+        "name": "DAVID MØLLER WOLFE",
         "position": "defender"
       }
     ],
-    "NOR": [],
     "PAN": [
       {
         "number": 348,
@@ -5268,6 +5290,11 @@
         "number": 379,
         "name": "FRANCISCO CONCEIÇÃO",
         "position": "forward"
+      },
+      {
+        "number": 381,
+        "name": "RAFAEL LEÃO",
+        "position": "forward"
       }
     ],
     "QAT": [
@@ -5296,18 +5323,40 @@
     ],
     "SCO": [
       {
+        "number": 406,
+        "name": "SCOTT MCTOMINAY",
+        "position": "fan_favourite"
+      },
+      {
         "number": 416,
         "name": "BEN GANNON-DOAK",
         "position": "forward"
       }
     ],
-    "SEN": [],
-    "RSA": [],
+    "SEN": [
+      {
+        "number": 429,
+        "name": "NICOLAS JACKSON",
+        "position": "forward"
+      }
+    ],
+    "RSA": [
+      {
+        "number": 441,
+        "name": "IQRAAM RAYNERS",
+        "position": "forward"
+      }
+    ],
     "ESP": [
       {
         "number": 446,
         "name": "ROBIN LE NORMAND",
         "position": "defender"
+      },
+      {
+        "number": 451,
+        "name": "FABIÁN RUIZ",
+        "position": "midfielder"
       }
     ],
     "SUI": [
@@ -5322,6 +5371,11 @@
         "number": 469,
         "name": "AYMEN DAHMEN",
         "position": "goalkeeper"
+      },
+      {
+        "number": 470,
+        "name": "MONTASSAR TALBI",
+        "position": "defender"
       },
       {
         "number": 476,
@@ -5360,6 +5414,11 @@
     ],
     "UZB": [
       {
+        "number": 508,
+        "name": "HUSNIDDIN ALIQULOV",
+        "position": "defender"
+      },
+      {
         "number": 509,
         "name": "RUSTAM ASHURMATOV",
         "position": "defender"
@@ -5367,9 +5426,19 @@
     ],
     "CONTENDERS": [
       {
+        "number": 524,
+        "name": "HØJLUND (DEN)",
+        "position": "forward"
+      },
+      {
         "number": 541,
         "name": "KULUSEVSKI (SWE)",
         "position": "midfielder"
+      },
+      {
+        "number": 542,
+        "name": "ELANGA (SWE)",
+        "position": "forward"
       },
       {
         "number": 549,
@@ -5381,6 +5450,11 @@
       {
         "number": 551,
         "name": "COURTOIS (BEL)",
+        "position": "goalkeeper"
+      },
+      {
+        "number": 558,
+        "name": "KOBEL (SUI)",
         "position": "goalkeeper"
       }
     ],
