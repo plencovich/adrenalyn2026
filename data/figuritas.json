@@ -3341,7 +3341,7 @@
       },
       {
         "number": 30,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 31,
@@ -3455,7 +3455,7 @@
       },
       {
         "number": 68,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "BRA": [
@@ -3669,7 +3669,7 @@
       },
       {
         "number": 146,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 147,
@@ -3911,7 +3911,7 @@
     "IRN": [
       {
         "number": 228,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 230,
@@ -4191,7 +4191,7 @@
       },
       {
         "number": 328,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 331,
@@ -4225,7 +4225,7 @@
       },
       {
         "number": 340,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 341,
@@ -4351,7 +4351,7 @@
       },
       {
         "number": 381,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "QAT": [
@@ -4429,7 +4429,7 @@
     "SCO": [
       {
         "number": 406,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 408,
@@ -4479,7 +4479,7 @@
       },
       {
         "number": 429,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "RSA": [
@@ -4517,7 +4517,7 @@
       },
       {
         "number": 441,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "ESP": [
@@ -4547,7 +4547,7 @@
       },
       {
         "number": 451,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 452,
@@ -4599,7 +4599,7 @@
       },
       {
         "number": 470,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 471,
@@ -4705,7 +4705,7 @@
       },
       {
         "number": 508,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 509,
@@ -4755,7 +4755,7 @@
       },
       {
         "number": 524,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 525,
@@ -4807,7 +4807,7 @@
       },
       {
         "number": 542,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 543,
@@ -4849,7 +4849,7 @@
       },
       {
         "number": 558,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "DEFENSIVE_ROCKS": [
