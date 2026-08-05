@@ -3264,8 +3264,12 @@
         "quantity": 1
       },
       {
+        "number": 4,
+        "quantity": 1
+      },
+      {
         "number": 9,
-        "quantity": 2
+        "quantity": 1
       }
     ],
     "ALG": [
@@ -5028,13 +5032,7 @@
     ]
   },
   "repetidas": {
-    "GOLDEN_BALLERS": [
-      {
-        "number": 9,
-        "name": "YAMAL (ESP)",
-        "position": "forward"
-      }
-    ],
+    "GOLDEN_BALLERS": [],
     "ALG": [],
     "ARG": [
       {
@@ -5524,11 +5522,6 @@
       {
         "number": 3,
         "name": "SALAH (EGY)",
-        "position": "forward"
-      },
-      {
-        "number": 4,
-        "name": "KANE (ENG)",
         "position": "forward"
       },
       {
