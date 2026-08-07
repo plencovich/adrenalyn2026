@@ -3425,7 +3425,7 @@
       },
       {
         "number": 55,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 56,
@@ -3469,7 +3469,7 @@
     "BRA": [
       {
         "number": 70,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 71,
@@ -3497,11 +3497,11 @@
       },
       {
         "number": 78,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 79,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 80,
@@ -3509,7 +3509,7 @@
       },
       {
         "number": 81,
-        "quantity": 1
+        "quantity": 2
       }
     ],
     "CAN": [
@@ -3535,7 +3535,7 @@
       },
       {
         "number": 91,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 92,
@@ -3945,7 +3945,7 @@
       },
       {
         "number": 225,
-        "quantity": 2
+        "quantity": 3
       }
     ],
     "IRN": [
@@ -4069,7 +4069,7 @@
       },
       {
         "number": 265,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 267,
@@ -4230,7 +4230,7 @@
         "quantity": 1
       },
       {
-        "number": 325,
+        "number": 326,
         "quantity": 1
       },
       {
@@ -4239,7 +4239,7 @@
       },
       {
         "number": 328,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 331,
@@ -4311,7 +4311,7 @@
       },
       {
         "number": 352,
-        "quantity": 2
+        "quantity": 3
       },
       {
         "number": 353,
@@ -4743,7 +4743,7 @@
       },
       {
         "number": 499,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 500,
@@ -4842,6 +4842,10 @@
         "quantity": 1
       },
       {
+        "number": 531,
+        "quantity": 1
+      },
+      {
         "number": 532,
         "quantity": 1
       },
@@ -4901,7 +4905,7 @@
     "TOP_KEEPERS": [
       {
         "number": 551,
-        "quantity": 2
+        "quantity": 3
       },
       {
         "number": 553,
@@ -5011,6 +5015,10 @@
       },
       {
         "number": 600,
+        "quantity": 1
+      },
+      {
+        "number": 601,
         "quantity": 1
       },
       {
@@ -5138,6 +5146,11 @@
         "number": 54,
         "name": "MARCEL SABITZER",
         "position": "midfielder"
+      },
+      {
+        "number": 55,
+        "name": "FLORIAN GRILLITSCH",
+        "position": "midfielder"
       }
     ],
     "BEL": [
@@ -5154,9 +5167,29 @@
     ],
     "BRA": [
       {
+        "number": 70,
+        "name": "MARQUINHOS",
+        "position": "fan_favourite"
+      },
+      {
         "number": 71,
         "name": "TEAM CREST",
         "position": null
+      },
+      {
+        "number": 78,
+        "name": "BRUNO GUIMARÃES",
+        "position": "midfielder"
+      },
+      {
+        "number": 79,
+        "name": "RODRYGO",
+        "position": "forward"
+      },
+      {
+        "number": 81,
+        "name": "RAPHINHA",
+        "position": "forward"
       }
     ],
     "CAN": [
@@ -5169,6 +5202,11 @@
         "number": 87,
         "name": "DEREK CORNELIUS",
         "position": "defender"
+      },
+      {
+        "number": 91,
+        "name": "JACOB SHAFFELBURG",
+        "position": "forward"
       }
     ],
     "CPV": [
@@ -5319,6 +5357,11 @@
         "number": 223,
         "name": "JEAN-RICNER BELLEGARDE",
         "position": "midfielder"
+      },
+      {
+        "number": 225,
+        "name": "DON DEEDSON LOUICIUS",
+        "position": "forward"
       },
       {
         "number": 225,
@@ -5539,6 +5582,11 @@
     ],
     "JOR": [
       {
+        "number": 265,
+        "name": "YAZEED ABULAILA",
+        "position": "goalkeeper"
+      },
+      {
         "number": 269,
         "name": "IBRAHIM SAADEH",
         "position": "midfielder"
@@ -5609,6 +5657,11 @@
         "position": null
       },
       {
+        "number": 328,
+        "name": "TIM PAYNE",
+        "position": "defender"
+      },
+      {
         "number": 333,
         "name": "ELIJAH JUST",
         "position": "forward"
@@ -5626,6 +5679,11 @@
         "number": 348,
         "name": "ANÍBAL GODOY",
         "position": "icon"
+      },
+      {
+        "number": 352,
+        "name": "CRISTIAN MARTÍNEZ",
+        "position": "midfielder"
       },
       {
         "number": 352,
@@ -5825,6 +5883,11 @@
         "number": 496,
         "name": "MATHÍAS OLIVERA",
         "position": "defender"
+      },
+      {
+        "number": 499,
+        "name": "MANUEL UGARTE",
+        "position": "midfielder"
       }
     ],
     "UZB": [
@@ -5867,6 +5930,11 @@
       }
     ],
     "TOP_KEEPERS": [
+      {
+        "number": 551,
+        "name": "COURTOIS (BEL)",
+        "position": "goalkeeper"
+      },
       {
         "number": 551,
         "name": "COURTOIS (BEL)",
@@ -6426,9 +6494,9 @@
         "position": "fan_favourite"
       },
       {
-        "number": 326,
-        "name": "MICHAEL BOXALL",
-        "position": "defender"
+        "number": 325,
+        "name": "MAX CROCOMBE",
+        "position": "goalkeeper"
       },
       {
         "number": 329,
@@ -6763,11 +6831,6 @@
         "position": "forward"
       },
       {
-        "number": 531,
-        "name": "PINNOCK (JAM)",
-        "position": "defender"
-      },
-      {
         "number": 536,
         "name": "KIWIOR (POL)",
         "position": "defender"
@@ -6913,11 +6976,6 @@
       {
         "number": 599,
         "name": "EN-NESYRI (MAR)",
-        "position": "forward"
-      },
-      {
-        "number": 601,
-        "name": "WOOD (NZL)",
         "position": "forward"
       },
       {
