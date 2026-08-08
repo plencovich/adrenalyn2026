@@ -3265,7 +3265,11 @@
       },
       {
         "number": 4,
-        "quantity": 2
+        "quantity": 1
+      },
+      {
+        "number": 5,
+        "quantity": 1
       },
       {
         "number": 9,
@@ -3645,7 +3649,7 @@
       },
       {
         "number": 122,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 123,
@@ -4155,7 +4159,7 @@
       },
       {
         "number": 278,
-        "quantity": 2
+        "quantity": 1
       },
       {
         "number": 280,
@@ -5212,13 +5216,7 @@
     ]
   },
   "repetidas": {
-    "GOLDEN_BALLERS": [
-      {
-        "number": 4,
-        "name": "KANE (ENG)",
-        "position": "forward"
-      }
-    ],
+    "GOLDEN_BALLERS": [],
     "ALG": [
       {
         "number": 13,
@@ -5467,11 +5465,6 @@
         "number": 121,
         "name": "DOMINIK LIVAKOVIĆ",
         "position": "goalkeeper"
-      },
-      {
-        "number": 122,
-        "name": "DUJE ĆALETA-CAR",
-        "position": "defender"
       },
       {
         "number": 124,
@@ -5968,11 +5961,6 @@
         "number": 277,
         "name": "HYEONWOO JO",
         "position": "goalkeeper"
-      },
-      {
-        "number": 278,
-        "name": "YOUNGWOO SEOL",
-        "position": "defender"
       },
       {
         "number": 281,
@@ -6566,11 +6554,6 @@
       {
         "number": 3,
         "name": "SALAH (EGY)",
-        "position": "forward"
-      },
-      {
-        "number": 5,
-        "name": "MBAPPÉ (FRA)",
         "position": "forward"
       },
       {
