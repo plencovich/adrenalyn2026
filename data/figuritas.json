@@ -3306,6 +3306,10 @@
         "quantity": 2
       },
       {
+        "number": 19,
+        "quantity": 1
+      },
+      {
         "number": 20,
         "quantity": 1
       },
@@ -3530,6 +3534,10 @@
         "quantity": 1
       },
       {
+        "number": 84,
+        "quantity": 1
+      },
+      {
         "number": 85,
         "quantity": 1
       },
@@ -3610,11 +3618,19 @@
     ],
     "COL": [
       {
+        "number": 107,
+        "quantity": 1
+      },
+      {
         "number": 108,
         "quantity": 1
       },
       {
         "number": 109,
+        "quantity": 1
+      },
+      {
+        "number": 110,
         "quantity": 1
       },
       {
@@ -3736,6 +3752,10 @@
         "quantity": 1
       },
       {
+        "number": 144,
+        "quantity": 1
+      },
+      {
         "number": 145,
         "quantity": 1
       },
@@ -3790,6 +3810,10 @@
         "quantity": 1
       },
       {
+        "number": 160,
+        "quantity": 1
+      },
+      {
         "number": 161,
         "quantity": 1
       },
@@ -3837,6 +3861,10 @@
       },
       {
         "number": 172,
+        "quantity": 1
+      },
+      {
+        "number": 173,
         "quantity": 1
       },
       {
@@ -3942,6 +3970,10 @@
     ],
     "GHA": [
       {
+        "number": 203,
+        "quantity": 1
+      },
+      {
         "number": 204,
         "quantity": 1
       },
@@ -3951,6 +3983,10 @@
       },
       {
         "number": 206,
+        "quantity": 1
+      },
+      {
+        "number": 207,
         "quantity": 1
       },
       {
@@ -3981,6 +4017,10 @@
       },
       {
         "number": 216,
+        "quantity": 1
+      },
+      {
+        "number": 217,
         "quantity": 1
       },
       {
@@ -4216,6 +4256,10 @@
       {
         "number": 282,
         "quantity": 2
+      },
+      {
+        "number": 283,
+        "quantity": 1
       }
     ],
     "MEX": [
@@ -4229,6 +4273,14 @@
       },
       {
         "number": 289,
+        "quantity": 1
+      },
+      {
+        "number": 290,
+        "quantity": 1
+      },
+      {
+        "number": 291,
         "quantity": 1
       },
       {
@@ -4422,6 +4474,10 @@
         "quantity": 2
       },
       {
+        "number": 350,
+        "quantity": 1
+      },
+      {
         "number": 351,
         "quantity": 1
       },
@@ -4544,6 +4600,10 @@
         "quantity": 1
       },
       {
+        "number": 386,
+        "quantity": 1
+      },
+      {
         "number": 387,
         "quantity": 2
       },
@@ -4616,6 +4676,10 @@
         "quantity": 2
       },
       {
+        "number": 412,
+        "quantity": 1
+      },
+      {
         "number": 413,
         "quantity": 1
       },
@@ -4626,6 +4690,10 @@
       {
         "number": 416,
         "quantity": 3
+      },
+      {
+        "number": 417,
+        "quantity": 1
       }
     ],
     "SEN": [
@@ -6695,11 +6763,6 @@
         "number": 11,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 19,
-        "name": "AMINE GOUIRI",
-        "position": "forward"
       }
     ],
     "ARG": [],
@@ -6766,11 +6829,6 @@
         "number": 83,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 84,
-        "name": "ALPHONSO DAVIES",
-        "position": "icon"
       }
     ],
     "CPV": [
@@ -6790,16 +6848,6 @@
         "number": 106,
         "name": "LUIS DÍAZ",
         "position": "fan_favourite"
-      },
-      {
-        "number": 107,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 110,
-        "name": "DAVINSON SÁNCHEZ",
-        "position": "defender"
       },
       {
         "number": 116,
@@ -6833,11 +6881,6 @@
         "position": null
       },
       {
-        "number": 144,
-        "name": "ENNER VALENCIA",
-        "position": "icon"
-      },
-      {
         "number": 149,
         "name": "ÁNGELO PRECIADO",
         "position": "defender"
@@ -6848,19 +6891,9 @@
         "number": 155,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 160,
-        "name": "RAMY RABIA",
-        "position": "defender"
       }
     ],
     "ENG": [
-      {
-        "number": 173,
-        "name": "JORDAN HENDERSON",
-        "position": "midfielder"
-      },
       {
         "number": 176,
         "name": "COLE PALMER",
@@ -6893,16 +6926,6 @@
         "position": "fan_favourite"
       },
       {
-        "number": 203,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 207,
-        "name": "ALEXANDER DJIKU",
-        "position": "defender"
-      },
-      {
         "number": 211,
         "name": "KAMALDEEN SULEMANA",
         "position": "forward"
@@ -6913,11 +6936,6 @@
         "number": 215,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 217,
-        "name": "JOHNY PLACIDE",
-        "position": "goalkeeper"
       }
     ],
     "IRN": [
@@ -6975,11 +6993,6 @@
         "position": "defender"
       },
       {
-        "number": 283,
-        "name": "KANGIN LEE",
-        "position": "midfielder"
-      },
-      {
         "number": 284,
         "name": "HYEONGYU OH",
         "position": "forward"
@@ -6995,16 +7008,6 @@
         "number": 288,
         "name": "RAÚL JIMÉNEZ",
         "position": "icon"
-      },
-      {
-        "number": 290,
-        "name": "ISRAEL REYES",
-        "position": "defender"
-      },
-      {
-        "number": 291,
-        "name": "JOHAN VÁSQUEZ",
-        "position": "defender"
       },
       {
         "number": 294,
@@ -7080,11 +7083,6 @@
         "number": 349,
         "name": "ORLANDO MOSQUERA",
         "position": "goalkeeper"
-      },
-      {
-        "number": 350,
-        "name": "ANDRÉS ANDRADE",
-        "position": "defender"
       }
     ],
     "PAR": [
@@ -7122,11 +7120,6 @@
       }
     ],
     "QAT": [
-      {
-        "number": 386,
-        "name": "BOUALEM KHOUKHI",
-        "position": "defender"
-      },
       {
         "number": 388,
         "name": "PEDRO MIGUEL",
@@ -7172,19 +7165,9 @@
         "position": "defender"
       },
       {
-        "number": 412,
-        "name": "BILLY GILMOUR",
-        "position": "midfielder"
-      },
-      {
         "number": 415,
         "name": "JOHN MCGINN",
         "position": "midfielder"
-      },
-      {
-        "number": 417,
-        "name": "CHÉ ADAMS",
-        "position": "forward"
       }
     ],
     "SEN": [
