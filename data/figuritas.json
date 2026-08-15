@@ -3264,11 +3264,31 @@
         "quantity": 1
       },
       {
+        "number": 2,
+        "quantity": 1
+      },
+      {
+        "number": 3,
+        "quantity": 1
+      },
+      {
         "number": 4,
         "quantity": 1
       },
       {
         "number": 5,
+        "quantity": 1
+      },
+      {
+        "number": 6,
+        "quantity": 1
+      },
+      {
+        "number": 7,
+        "quantity": 1
+      },
+      {
+        "number": 8,
         "quantity": 1
       },
       {
@@ -6726,33 +6746,7 @@
     "VARIOS": []
   },
   "faltantes": {
-    "GOLDEN_BALLERS": [
-      {
-        "number": 2,
-        "name": "VINÍCIUS JÚNIOR (BRA)",
-        "position": "forward"
-      },
-      {
-        "number": 3,
-        "name": "SALAH (EGY)",
-        "position": "forward"
-      },
-      {
-        "number": 6,
-        "name": "SON (KOR)",
-        "position": "forward"
-      },
-      {
-        "number": 7,
-        "name": "HAALAND (NOR)",
-        "position": "forward"
-      },
-      {
-        "number": 8,
-        "name": "RONALDO (POR)",
-        "position": "forward"
-      }
-    ],
+    "GOLDEN_BALLERS": [],
     "ALG": [
       {
         "number": 10,
