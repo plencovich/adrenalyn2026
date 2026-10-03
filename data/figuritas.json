@@ -4054,10 +4054,6 @@
     ],
     "GHA": [
       {
-        "number": 202,
-        "quantity": 1
-      },
-      {
         "number": 203,
         "quantity": 1
       },
@@ -4438,11 +4434,19 @@
     ],
     "MAR": [
       {
+        "number": 299,
+        "quantity": 1
+      },
+      {
         "number": 300,
         "quantity": 2
       },
       {
         "number": 301,
+        "quantity": 2
+      },
+      {
+        "number": 302,
         "quantity": 2
       },
       {
@@ -5543,6 +5547,10 @@
       },
       {
         "number": 589,
+        "quantity": 1
+      },
+      {
+        "number": 590,
         "quantity": 1
       },
       {
@@ -7011,6 +7019,11 @@
         "position": "goalkeeper"
       },
       {
+        "number": 302,
+        "name": "NOUSSAIR MAZRAOUI",
+        "position": "defender"
+      },
+      {
         "number": 303,
         "name": "NAYEF AGUERD",
         "position": "defender"
@@ -8334,6 +8347,11 @@
     ],
     "GHA": [
       {
+        "number": 202,
+        "name": "THOMAS PARTEY",
+        "position": "fan_favourite"
+      },
+      {
         "number": 211,
         "name": "KAMALDEEN SULEMANA",
         "position": "forward"
@@ -8369,16 +8387,6 @@
         "number": 298,
         "name": "YOUSSEF EN-NESYRI",
         "position": "fan_favourite"
-      },
-      {
-        "number": 299,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 302,
-        "name": "NOUSSAIR MAZRAOUI",
-        "position": "defender"
       },
       {
         "number": 308,
@@ -8530,11 +8538,6 @@
       {
         "number": 587,
         "name": "LUKAKU (BEL)",
-        "position": "forward"
-      },
-      {
-        "number": 590,
-        "name": "DÍAZ (COL)",
         "position": "forward"
       },
       {
