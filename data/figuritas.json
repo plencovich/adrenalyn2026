@@ -3422,12 +3422,20 @@
         "quantity": 3
       },
       {
+        "number": 40,
+        "quantity": 1
+      },
+      {
         "number": 41,
         "quantity": 2
       },
       {
         "number": 42,
         "quantity": 2
+      },
+      {
+        "number": 43,
+        "quantity": 1
       },
       {
         "number": 44,
@@ -3439,6 +3447,14 @@
       }
     ],
     "AUT": [
+      {
+        "number": 46,
+        "quantity": 1
+      },
+      {
+        "number": 47,
+        "quantity": 1
+      },
       {
         "number": 49,
         "quantity": 2
@@ -3457,7 +3473,7 @@
       },
       {
         "number": 53,
-        "quantity": 2
+        "quantity": 3
       },
       {
         "number": 54,
@@ -3566,6 +3582,10 @@
         "quantity": 1
       },
       {
+        "number": 83,
+        "quantity": 1
+      },
+      {
         "number": 84,
         "quantity": 1
       },
@@ -3612,8 +3632,16 @@
         "quantity": 1
       },
       {
+        "number": 95,
+        "quantity": 1
+      },
+      {
         "number": 96,
         "quantity": 2
+      },
+      {
+        "number": 97,
+        "quantity": 1
       },
       {
         "number": 98,
@@ -3792,6 +3820,10 @@
         "quantity": 1
       },
       {
+        "number": 143,
+        "quantity": 1
+      },
+      {
         "number": 144,
         "quantity": 1
       },
@@ -3810,6 +3842,10 @@
       {
         "number": 148,
         "quantity": 2
+      },
+      {
+        "number": 149,
+        "quantity": 1
       },
       {
         "number": 150,
@@ -3922,11 +3958,19 @@
     ],
     "FRA": [
       {
+        "number": 178,
+        "quantity": 1
+      },
+      {
         "number": 179,
         "quantity": 1
       },
       {
         "number": 180,
+        "quantity": 1
+      },
+      {
+        "number": 181,
         "quantity": 1
       },
       {
@@ -3977,7 +4021,7 @@
       },
       {
         "number": 194,
-        "quantity": 1
+        "quantity": 2
       },
       {
         "number": 195,
@@ -4057,6 +4101,10 @@
     "HAI": [
       {
         "number": 214,
+        "quantity": 1
+      },
+      {
+        "number": 215,
         "quantity": 1
       },
       {
@@ -4210,6 +4258,10 @@
         "quantity": 1
       },
       {
+        "number": 253,
+        "quantity": 1
+      },
+      {
         "number": 254,
         "quantity": 1
       },
@@ -4306,6 +4358,10 @@
         "quantity": 1
       },
       {
+        "number": 279,
+        "quantity": 1
+      },
+      {
         "number": 280,
         "quantity": 2
       },
@@ -4319,6 +4375,14 @@
       },
       {
         "number": 283,
+        "quantity": 1
+      },
+      {
+        "number": 284,
+        "quantity": 1
+      },
+      {
+        "number": 285,
         "quantity": 1
       }
     ],
@@ -4402,10 +4466,6 @@
         "quantity": 3
       },
       {
-        "number": 308,
-        "quantity": 1
-      },
-      {
         "number": 309,
         "quantity": 2
       }
@@ -4429,6 +4489,10 @@
       },
       {
         "number": 314,
+        "quantity": 1
+      },
+      {
+        "number": 315,
         "quantity": 1
       },
       {
@@ -4463,6 +4527,10 @@
       },
       {
         "number": 324,
+        "quantity": 1
+      },
+      {
+        "number": 325,
         "quantity": 1
       },
       {
@@ -4722,12 +4790,24 @@
         "quantity": 2
       },
       {
+        "number": 395,
+        "quantity": 1
+      },
+      {
+        "number": 396,
+        "quantity": 1
+      },
+      {
         "number": 397,
         "quantity": 2
       },
       {
         "number": 398,
         "quantity": 3
+      },
+      {
+        "number": 399,
+        "quantity": 1
       },
       {
         "number": 400,
@@ -4770,6 +4850,10 @@
       {
         "number": 410,
         "quantity": 3
+      },
+      {
+        "number": 411,
+        "quantity": 1
       },
       {
         "number": 412,
@@ -4968,6 +5052,10 @@
         "quantity": 3
       },
       {
+        "number": 463,
+        "quantity": 1
+      },
+      {
         "number": 464,
         "quantity": 3
       },
@@ -5000,6 +5088,10 @@
       {
         "number": 472,
         "quantity": 2
+      },
+      {
+        "number": 473,
+        "quantity": 1
       },
       {
         "number": 474,
@@ -5308,6 +5400,10 @@
     ],
     "TOP_KEEPERS": [
       {
+        "number": 550,
+        "quantity": 1
+      },
+      {
         "number": 551,
         "quantity": 3
       },
@@ -5358,10 +5454,6 @@
         "quantity": 3
       },
       {
-        "number": 564,
-        "quantity": 1
-      },
-      {
         "number": 565,
         "quantity": 1
       },
@@ -5385,6 +5477,10 @@
       },
       {
         "number": 571,
+        "quantity": 1
+      },
+      {
+        "number": 572,
         "quantity": 1
       },
       {
@@ -5438,6 +5534,10 @@
     ],
     "GOAL_MACHINES": [
       {
+        "number": 586,
+        "quantity": 1
+      },
+      {
         "number": 588,
         "quantity": 2
       },
@@ -5447,6 +5547,10 @@
       },
       {
         "number": 591,
+        "quantity": 1
+      },
+      {
+        "number": 592,
         "quantity": 1
       },
       {
@@ -5463,7 +5567,7 @@
       },
       {
         "number": 600,
-        "quantity": 2
+        "quantity": 3
       },
       {
         "number": 601,
@@ -5476,6 +5580,10 @@
       {
         "number": 604,
         "quantity": 2
+      },
+      {
+        "number": 605,
+        "quantity": 1
       }
     ],
     "MASTER_ROOKIES": [
@@ -5518,6 +5626,10 @@
       {
         "number": 618,
         "quantity": 2
+      },
+      {
+        "number": 619,
+        "quantity": 1
       },
       {
         "number": 620,
@@ -5715,6 +5827,11 @@
         "number": 51,
         "name": "PHILIPP LIENHART",
         "position": "defender"
+      },
+      {
+        "number": 53,
+        "name": "NICOLAS SEIWALD",
+        "position": "midfielder"
       },
       {
         "number": 53,
@@ -6334,6 +6451,11 @@
         "number": 193,
         "name": "MARC-ANDRÉ TER STEGEN",
         "position": "goalkeeper"
+      },
+      {
+        "number": 194,
+        "name": "ANTONIO RÜDIGER",
+        "position": "defender"
       },
       {
         "number": 197,
@@ -8078,6 +8200,11 @@
         "position": "forward"
       },
       {
+        "number": 600,
+        "name": "GAKPO (NED)",
+        "position": "forward"
+      },
+      {
         "number": 602,
         "name": "SØRLOTH (NOR)",
         "position": "forward"
@@ -8127,29 +8254,8 @@
     "GOLDEN_BALLERS": [],
     "ALG": [],
     "ARG": [],
-    "AUS": [
-      {
-        "number": 40,
-        "name": "MILOS DEGENEK",
-        "position": "defender"
-      },
-      {
-        "number": 43,
-        "name": "AIDEN O'NEILL",
-        "position": "midfielder"
-      }
-    ],
+    "AUS": [],
     "AUT": [
-      {
-        "number": 46,
-        "name": "MARKO ARNAUTOVIĆ",
-        "position": "fan_favourite"
-      },
-      {
-        "number": 47,
-        "name": "TEAM CREST",
-        "position": null
-      },
       {
         "number": 48,
         "name": "DAVID ALABA",
@@ -8180,25 +8286,8 @@
         "position": "icon"
       }
     ],
-    "CAN": [
-      {
-        "number": 83,
-        "name": "TEAM CREST",
-        "position": null
-      }
-    ],
-    "CPV": [
-      {
-        "number": 95,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 97,
-        "name": "LOGAN COSTA",
-        "position": "defender"
-      }
-    ],
+    "CAN": [],
+    "CPV": [],
     "COL": [
       {
         "number": 116,
@@ -8220,18 +8309,7 @@
         "position": "defender"
       }
     ],
-    "ECU": [
-      {
-        "number": 143,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 149,
-        "name": "ÁNGELO PRECIADO",
-        "position": "defender"
-      }
-    ],
+    "ECU": [],
     "EGY": [
       {
         "number": 155,
@@ -8246,18 +8324,7 @@
         "position": "forward"
       }
     ],
-    "FRA": [
-      {
-        "number": 178,
-        "name": "OUSMANE DEMBÉLÉ",
-        "position": "fan_favourite"
-      },
-      {
-        "number": 181,
-        "name": "MIKE MAIGNAN",
-        "position": "goalkeeper"
-      }
-    ],
+    "FRA": [],
     "GER": [
       {
         "number": 192,
@@ -8272,13 +8339,7 @@
         "position": "forward"
       }
     ],
-    "HAI": [
-      {
-        "number": 215,
-        "name": "TEAM CREST",
-        "position": null
-      }
-    ],
+    "HAI": [],
     "IRN": [
       {
         "number": 226,
@@ -8287,13 +8348,7 @@
       }
     ],
     "CIV": [],
-    "JPN": [
-      {
-        "number": 253,
-        "name": "ZION SUZUKI",
-        "position": "goalkeeper"
-      }
-    ],
+    "JPN": [],
     "JOR": [
       {
         "number": 271,
@@ -8306,21 +8361,6 @@
         "number": 274,
         "name": "MINJAE KIM",
         "position": "fan_favourite"
-      },
-      {
-        "number": 279,
-        "name": "YUMIN CHO",
-        "position": "defender"
-      },
-      {
-        "number": 284,
-        "name": "HYEONGYU OH",
-        "position": "forward"
-      },
-      {
-        "number": 285,
-        "name": "HEECHAN HWANG",
-        "position": "forward"
       }
     ],
     "MEX": [],
@@ -8339,27 +8379,21 @@
         "number": 302,
         "name": "NOUSSAIR MAZRAOUI",
         "position": "defender"
+      },
+      {
+        "number": 308,
+        "name": "ABDE EZZALZOULI",
+        "position": "forward"
       }
     ],
     "NED": [
-      {
-        "number": 315,
-        "name": "JEREMIE FRIMPONG",
-        "position": "defender"
-      },
       {
         "number": 316,
         "name": "DENZEL DUMFRIES",
         "position": "defender"
       }
     ],
-    "NZL": [
-      {
-        "number": 325,
-        "name": "MAX CROCOMBE",
-        "position": "goalkeeper"
-      }
-    ],
+    "NZL": [],
     "NOR": [
       {
         "number": 336,
@@ -8409,33 +8443,12 @@
         "position": "forward"
       }
     ],
-    "KSA": [
-      {
-        "number": 395,
-        "name": "TEAM CREST",
-        "position": null
-      },
-      {
-        "number": 396,
-        "name": "SALEM ALDAWSARI",
-        "position": "icon"
-      },
-      {
-        "number": 399,
-        "name": "JEHAD THIKRI",
-        "position": "defender"
-      }
-    ],
+    "KSA": [],
     "SCO": [
       {
         "number": 407,
         "name": "TEAM CREST",
         "position": null
-      },
-      {
-        "number": 411,
-        "name": "GRANT HANLEY",
-        "position": "defender"
       },
       {
         "number": 415,
@@ -8463,23 +8476,12 @@
       }
     ],
     "ESP": [],
-    "SUI": [
-      {
-        "number": 463,
-        "name": "BREEL EMBOLO",
-        "position": "forward"
-      }
-    ],
+    "SUI": [],
     "TUN": [
       {
         "number": 468,
         "name": "ELLYES SKHIRI",
         "position": "icon"
-      },
-      {
-        "number": 473,
-        "name": "AÏSSA LAÏDOUNI",
-        "position": "midfielder"
       }
     ],
     "USA": [
@@ -8500,26 +8502,22 @@
     ],
     "TOP_KEEPERS": [
       {
-        "number": 550,
-        "name": "MARTÍNEZ (ARG)",
-        "position": "goalkeeper"
-      },
-      {
         "number": 557,
         "name": "SIMÓN (ESP)",
         "position": "goalkeeper"
       }
     ],
-    "DEFENSIVE_ROCKS": [],
+    "DEFENSIVE_ROCKS": [
+      {
+        "number": 564,
+        "name": "HAKIMI (MAR)",
+        "position": "defender"
+      }
+    ],
     "MIDFIELD_MAESTROS": [
       {
         "number": 569,
         "name": "DE BRUYNE (BEL)",
-        "position": "midfielder"
-      },
-      {
-        "number": 572,
-        "name": "CAICEDO (ECU)",
         "position": "midfielder"
       },
       {
@@ -8530,11 +8528,6 @@
     ],
     "GOAL_MACHINES": [
       {
-        "number": 586,
-        "name": "ÁLVAREZ (ARG)",
-        "position": "forward"
-      },
-      {
         "number": 587,
         "name": "LUKAKU (BEL)",
         "position": "forward"
@@ -8542,11 +8535,6 @@
       {
         "number": 590,
         "name": "DÍAZ (COL)",
-        "position": "forward"
-      },
-      {
-        "number": 592,
-        "name": "VALENCIA (ECU)",
         "position": "forward"
       },
       {
@@ -8575,11 +8563,6 @@
         "position": "forward"
       },
       {
-        "number": 605,
-        "name": "EMBOLO (SUI)",
-        "position": "forward"
-      },
-      {
         "number": 606,
         "name": "PULISIC (USA)",
         "position": "forward"
@@ -8595,11 +8578,6 @@
         "number": 608,
         "name": "PAZ (ARG)",
         "position": "midfielder"
-      },
-      {
-        "number": 619,
-        "name": "SIMONS (NED)",
-        "position": "forward"
       },
       {
         "number": 621,
